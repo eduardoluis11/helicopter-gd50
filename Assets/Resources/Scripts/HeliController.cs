@@ -53,6 +53,8 @@ public class HeliController : MonoBehaviour {
 		rb.velocity = new Vector3(horizontal, vertical, 0);
 	}
 
+    // called when the helicopter collides with a coin.
+    // I'll NEED TO MODIFY THIS SO THAT YOU GET 5 POINTS IF YOU PICK UP A GEM.
 	public void PickupCoin() {
 		coinTotal += 1;
 

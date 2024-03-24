@@ -1,0 +1,9 @@
+1) "Tell me what this C# script does in my Unity game."
+Copilot Chat in Pycharm: Professional Edition.
+I attached the Coin.cs file.
+Accessed on March 24th, 2024
+
+2) "Awesome. Now, tell me what this cript does with my coins in my Unity game."
+Copilot Chat in Pycharm: Professional Edition.
+I attached the CoinSpawner.cs file.
+Accessed on March 24th, 2024
