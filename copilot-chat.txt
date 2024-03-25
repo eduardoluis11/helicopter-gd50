@@ -36,3 +36,46 @@ This script essentially controls the spawning of the coins in your game, includi
 
 ======================================================================================================================
 
+I have a 3D model of a diamond in Unity in a library called "ProtoPack". Well, I want to create a Prefab out of that model, and insert it into the Assets/Resources/Models/Materials folder. How do I do that in the Unity editor?
+
+
+To create a Prefab from a 3D model in Unity, follow these steps:
+
+1. Open your Unity project and navigate to the `Assets/ProtoPack/Models` folder in the Project window.
+
+2. Find the `Diamond.FBX` file. This is your 3D model.
+
+3. Drag and drop the `Diamond.FBX` file from the Project window into the Scene view. This will create a new GameObject in your scene with the 3D model.
+
+4. If you want to make any changes to the GameObject (like adding components or changing properties), do it now.
+
+5. Once you're satisfied with your GameObject, drag it from the Scene view back into the Project window. Choose the `Assets/Resources/Models/Materials` folder as the destination. This will create a new Prefab in that folder.
+
+6. You can now delete the GameObject from your scene. The Prefab in the `Assets/Resources/Models/Materials` folder will retain all the properties and components of the GameObject.
+
+Remember, any changes you make to the Prefab will be reflected in all instances of that Prefab in your scenes. Conversely, changes made to an instance of a Prefab in a scene can be applied back to the original Prefab using the `Apply` button in the Inspector window.
+
+======================================================================================================================
+
+Cool. I made the Diamond / Gem Prefab. Now, how can I connect that Prefab to my Gem.cs and GemSpawner.cs so that I can spawn gems using that Gem Prefab?
+
+To connect the Diamond/Gem Prefab to your `Gem.cs` and `GemSpawner.cs` scripts, you need to assign the Prefab to the appropriate variable in the `GemSpawner.cs` script. Here's how you can do it:
+
+1. Open your Unity project and navigate to the `GemSpawner.cs` script in the Unity Editor.
+
+2. Click on the GameObject in the scene that has the `GemSpawner.cs` script attached to it.
+
+3. In the Inspector window, you should see a field for an array of GameObjects under the `GemSpawner` component (named `Prefabs`). This is where you will assign your Gem Prefab.
+
+4. Navigate to the `Assets/Resources/Models/Materials` folder in the Project window where you saved your Gem Prefab.
+
+5. Drag and drop the Gem Prefab from the Project window to the `Prefabs` field in the Inspector window. If you want to spawn only gems, make sure to remove any other prefabs from the array.
+
+6. Save your changes.
+
+Now, the `GemSpawner.cs` script will instantiate the Gem Prefab whenever it spawns a new gem. The behavior of the spawned gems will be controlled by the `Gem.cs` script attached to the Gem Prefab.
+
+Remember, any changes you make to the Prefab will be reflected in all instances of that Prefab in your scenes. Conversely, changes made to an instance of a Prefab in a scene can be applied back to the original Prefab using the `Apply` button in the Inspector window.
+
+======================================================================================================================
+

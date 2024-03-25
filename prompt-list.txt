@@ -7,3 +7,8 @@ Accessed on March 24th, 2024
 Copilot Chat in Pycharm: Professional Edition.
 I attached the CoinSpawner.cs file.
 Accessed on March 24th, 2024
+
+3) "I have a 3D model of a diamond in Unity in a library called "ProtoPack". Well, I want to create a Prefab out of that model, and insert it into the Assets/Resources/Models/Materials folder. How do I do that in the Unity editor?"
+Copilot Chat in Pycharm: Professional Edition.
+I attached the Diamond.FBX.meta file.
+Accessed on March 25th, 2024

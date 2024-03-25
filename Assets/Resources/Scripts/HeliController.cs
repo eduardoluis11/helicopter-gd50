@@ -53,15 +53,25 @@ public class HeliController : MonoBehaviour {
 		rb.velocity = new Vector3(horizontal, vertical, 0);
 	}
 
-    // called when the helicopter collides with a coin.
-    // I'll NEED TO MODIFY THIS SO THAT YOU GET 5 POINTS IF YOU PICK UP A GEM.
-	public void PickupCoin() {
+    // called when the helicopter collides with a Gem. This will give you 5 points instead of 1.
+	public void PickupGem() {
+
+	    // This will add 5 points to your score
+		coinTotal += 5;
+
+		// trigger audio playback and emit particles from particle system
+		GetComponents<AudioSource>()[0].Play();
+		GetComponent<ParticleSystem>().Play();
+	}
+
+		public void PickupCoin() {
 		coinTotal += 1;
 
 		// trigger audio playback and emit particles from particle system
 		GetComponents<AudioSource>()[0].Play();
 		GetComponent<ParticleSystem>().Play();
 	}
+
 
 	public void Explode() {
 		explosionSound.Play();
