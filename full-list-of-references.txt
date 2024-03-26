@@ -17,3 +17,7 @@ Accessed on March 25th, 2024
 Bing Chat.
 Link: https://sl.bing.net/iRhTiJ4wVwa
 Accessed on March 26th, 2024
+
+5) Vale from https://stackoverflow.com/questions/59560079/unity-guidelines-to-add-script-to-prefab
+Stack Overflow.
+Accessed on March 26th, 2024.

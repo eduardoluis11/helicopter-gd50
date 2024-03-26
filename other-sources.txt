@@ -1,0 +1,2 @@
+A.1) Vale from https://stackoverflow.com/questions/59560079/unity-guidelines-to-add-script-to-prefab
+Accessed on March 26th, 2024.

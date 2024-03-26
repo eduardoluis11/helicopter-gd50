@@ -1,0 +1,23 @@
+## You
+I'm making a Unity game for a game dev course by Harvard. I need to attach a script to a prefab. Give me a link to a video tutorial for it.
+## Copilot
+Certainly! 🎮 Here are some resources to help you attach a script to a prefab in Unity:
+
+1. **Stack Overflow**: This thread discusses the best practices for adding a script to a prefab. It covers both using the Unity interface and the `AddComponent` method. You'll find valuable insights from experienced developers [here](https://stackoverflow.com/questions/59560079/unity-guidelines-to-add-script-to-prefab) ¹.
+
+2. **Unity Learn Tutorial**: The official Unity Learn tutorial on **Prefabs** provides guidance on creating and using prefabs. It's verified for Unity 2019 LTS. You'll learn how to save fully configured GameObjects for reuse across scenes and projects. Check it out [here](https://learn.unity.com/tutorial/prefabs-e) ².
+
+3. **Unity Manual**: If you prefer written documentation, the Unity Manual explains how to create UI elements from scripting. While it's not specifically about attaching scripts to prefabs, the concepts can be applied. Read more [here](https://docs.unity3d.com/2020.1/Documentation/Manual/HOWTO-UICreateFromScripting.html) ³.
+
+4. **Unity Forum**: In this forum post, users discuss adding scripts to prefabs. It covers scenarios where you want to apply changes to a prefab or add a script directly in the Project view. Dive into the discussion [here](https://forum.unity.com/threads/adding-a-script-to-a-prefab.19843/) ⁴.
+
+5. **YouTube Video**: For a visual walkthrough, watch the **Unity Official Tutorials** video on **Prefabs**. It explains the concept and usage of prefabs. You can find it [here](https://www.youtube.com/watch?v=H1OkG3a1w-o) ⁵.
+
+Feel free to explore these resources and enhance your Unity game development skills! 🚀👾
+
+Source: Conversation with Bing, 26/3/2024
+(1) Unity: Guidelines to add script to Prefab - Stack Overflow. https://stackoverflow.com/questions/59560079/unity-guidelines-to-add-script-to-prefab.
+(2) Prefabs - Unity Learn. https://learn.unity.com/tutorial/prefabs-e.
+(3) Unity - Manual: Creating UI elements from scripting. https://docs.unity3d.com/2020.1/Documentation/Manual/HOWTO-UICreateFromScripting.html.
+(4) Adding a script to a prefab - Unity Forum. https://forum.unity.com/threads/adding-a-script-to-a-prefab.19843/.
+(5) Prefabs - Concept and usage - Unity Official Tutorials - YouTube. https://www.youtube.com/watch?v=H1OkG3a1w-o.
