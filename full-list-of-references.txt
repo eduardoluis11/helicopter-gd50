@@ -21,3 +21,22 @@ Accessed on March 26th, 2024
 5) Vale from https://stackoverflow.com/questions/59560079/unity-guidelines-to-add-script-to-prefab
 Stack Overflow.
 Accessed on March 26th, 2024.
+
+6) "/explain This file spawns gems in my game. Tell me what this specific snippet does in my file."
+Copilot Chat in Pycharm: Professional Edition.
+I attached the GemSpawner.cs file.
+Accessed on March 28th, 2024
+
+7) "I'm confused. You first said that, to spawn the gems, I'm first storing a random number between 1 and 4, but then you go on that, to spawn the gem, I need a number between -10 and 10. Could you please clarify for me the difference between storing the random number between 1 and 4 and storing it between -10 and 10 on this snippet?"
+Copilot Chat in Pycharm: Professional Edition.
+I attached the GemSpawner.cs file.
+Accessed on March 28th, 2024
+
+8) "Thanks. Now, how do I write a multiline comment in C#?"
+Copilot Chat in Pycharm: Professional Edition.
+Accessed on March 28th, 2024
+
+9) "Well, I want to modify the SpawnGems() function so that gems spawn rarely. The player would have to wait a lot until a gem spawns, and it should be at random intervals. Do I need to modify this snippet? Or, should I add another snippet to make the gems to spawn at random intervals?"
+Copilot Chat in Pycharm: Professional Edition.
+I attached the GemSpawner.cs file.
+Accessed on March 28th, 2024
