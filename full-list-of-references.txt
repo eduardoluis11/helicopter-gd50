@@ -40,3 +40,9 @@ Accessed on March 28th, 2024
 Copilot Chat in Pycharm: Professional Edition.
 I attached the GemSpawner.cs file.
 Accessed on March 28th, 2024
+
+10) "Look at how the speed is managed in SkyScraperSpawner.cs, and look at this highlighted snippet on GameOverText.cs. Modify the code so that, inside this "if" statement, you reset the speed back to its original state. Once again, everything regarding the game's speed is found on the SkyScraperSpawner.c file, so use that as a reference."
+Copilot Chat in Pycharm: Professional Edition.
+I highlighted lines 42 to 49 from the GameOverText.cs file.
+I attached the SkyscraperSpawner.cs and the GameOverText.cs files.
+Accessed on March 28th, 2024

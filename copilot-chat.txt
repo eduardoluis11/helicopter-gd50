@@ -153,3 +153,29 @@ yield return new WaitForSeconds(Random.Range(10, 30));
 This change will make the gems spawn at random intervals between 10 and 30 seconds.
 
 ======================================================================================================================
+
+Look at how the speed is managed in SkyScraperSpawner.cs, and look at this highlighted snippet on GameOverText.cs. Modify the code so that, inside this "if" statement, you reset the speed back to its original state. Once again, everything regarding the game's speed is found on the SkyScraperSpawner.c file, so use that as a reference.
+
+To reset the speed back to its original state when the game is over, you need to set the `speed` variable in `SkyscraperSpawner` back to its initial value.
+
+In `SkyscraperSpawner.cs`, the initial speed is set to 10f. So, you need to set `speed` back to 10f when the game is over.
+
+However, `speed` is a static variable in `SkyscraperSpawner`, so you can access it directly from `GameOverText.cs` using the class name.
+
+Here's how you can modify the `if` statement in `GameOverText.cs` to reset the speed:
+
+```csharp
+// jump is space bar by default
+if (Input.GetButtonDown("Jump")) {
+
+    // reset the speed back to its original state
+    SkyscraperSpawner.speed = 10f;
+
+    // reload entire scene, starting music over again, refreshing score, etc.
+    SceneManager.LoadScene("Main");
+}
+```
+
+This modification will ensure that the speed of the game is reset back to its original state when the game is over and the player starts a new game.
+
+======================================================================================================================

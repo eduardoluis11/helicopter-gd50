@@ -18,6 +18,14 @@ public class SkyscraperSpawner : MonoBehaviour {
 
 	}
 
+    /* This spawns skyscrapers at random intervals and increases the speed of the game
+     * as the player progresses.
+
+     Although this function is what makes the game run faster and faster as the game goes on (for the skyscrapers,
+     coins, and planes,) this is NOT the function nor the file with the bug that makes the game keep the same high speed
+     when you hit the Space bar after you get a Game Over. However, this should give me a hint as to the file
+     where the bug is located.
+    */
 	IEnumerator SpawnSkyscrapers() {
 		while (true) {
 
