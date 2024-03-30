@@ -20,6 +20,7 @@ Accessed on March 26th, 2024
 
 5) Vale from https://stackoverflow.com/questions/59560079/unity-guidelines-to-add-script-to-prefab
 Stack Overflow.
+They made their post on Jan 2, 2020.
 Accessed on March 26th, 2024.
 
 6) "/explain This file spawns gems in my game. Tell me what this specific snippet does in my file."
