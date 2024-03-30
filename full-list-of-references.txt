@@ -25,6 +25,7 @@ Accessed on March 26th, 2024.
 
 6) "/explain This file spawns gems in my game. Tell me what this specific snippet does in my file."
 Copilot Chat in Pycharm: Professional Edition.
+Highlighted lines 50 to 56 from the GemSpawner.cs file.
 I attached the GemSpawner.cs file.
 Accessed on March 28th, 2024
 
